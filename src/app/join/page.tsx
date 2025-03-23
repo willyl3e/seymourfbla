@@ -17,8 +17,8 @@ import {
 export default function Page() {
   return (
     <>
-      <div className="bg-blue-900 pt-8 pb-28">
-        <div className="place-self-center w-6xl text-center">
+      <div className="bg-blue-900 pt-8 pb-28 pl-[20%] pr-[20%] max-2xl:pl-[10%] max-2xl:pr-[10%] max-lg:pr-[3%] max-lg:pl-[3%]">
+        <div className=" text-center">
           <span className=" text-lg text-blue-500 block mb-14">
             WHY JOIN FBLA?
           </span>
@@ -65,8 +65,8 @@ export default function Page() {
           </div>
         </div>
       </div>
-      <div>
-        <div className="w-6xl place-self-center pt-7 pb-7">
+      <div className="pl-[20%] pr-[20%] max-2xl:pl-[10%] max-2xl:pr-[10%] max-lg:pr-[3%] max-lg:pl-[3%]">
+        <div className="pt-7 pb-7">
           <Breadcrumb>
             <BreadcrumbList>
               <BreadcrumbItem>
@@ -92,8 +92,8 @@ export default function Page() {
           </Breadcrumb>
         </div>
       </div>
-      <div>
-        <div className="w-6xl place-self-center pt-7 pb-7">
+      <div className="pl-[20%] pr-[20%] max-2xl:pl-[10%] max-2xl:pr-[10%] max-lg:pr-[3%] max-lg:pl-[3%]">
+        <div className="pt-7 pb-7">
           <span className="text-4xl a mt-4 mb-3 block">
             Interested in joining?
           </span>

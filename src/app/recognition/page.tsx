@@ -28,8 +28,8 @@ const dcs =
 export default function Page() {
   return (
     <>
-      <div className="pt-14 pb-20">
-        <div className="w-6xl place-self-center">
+      <div className="pt-14 pb-20 pl-[20%] pr-[20%] max-2xl:pl-[10%] max-2xl:pr-[10%] max-lg:pr-[3%] max-lg:pl-[3%]">
+        <div>
           <Breadcrumb>
             <BreadcrumbList>
               <BreadcrumbItem>

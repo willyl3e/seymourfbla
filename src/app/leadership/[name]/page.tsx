@@ -24,8 +24,8 @@ export default async function Page({
 
   return (
     <>
-      <div className="bg-blue-50">
-        <div className="place-self-center w-6xl pt-20">
+      <div className="bg-blue-50 pl-[20%] pr-[20%] max-2xl:pl-[10%] max-2xl:pr-[10%] max-lg:pr-[3%] max-lg:pl-[3%]">
+        <div className=" pt-20">
           <div className="grid grid-cols-2">
             <div>
               <span className="text-7xl a mt-12 inline-block text-blue-800">
@@ -47,8 +47,8 @@ export default async function Page({
           </div>
         </div>
       </div>
-      <div>
-        <div className="w-6xl place-self-center pt-7 pb-7">
+      <div className="pl-[20%] pr-[20%] max-2xl:pl-[10%] max-2xl:pr-[10%] max-lg:pr-[3%] max-lg:pl-[3%]">
+        <div className="pt-7 pb-7">
           <Breadcrumb>
             <BreadcrumbList>
               <BreadcrumbItem>
@@ -78,8 +78,8 @@ export default async function Page({
           </Breadcrumb>
         </div>
       </div>
-      <div>
-        <div className="w-6xl place-self-center pb-24 pt-8">
+      <div className="pl-[20%] pr-[20%] max-2xl:pl-[10%] max-2xl:pr-[10%] max-lg:pr-[3%] max-lg:pl-[3%]">
+        <div className="pb-24 pt-8">
           <span className="text-2xl font-bold block">Biography</span>
           {selectedProfile[0].bio}
         </div>

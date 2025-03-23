@@ -79,10 +79,10 @@ export default function Home() {
   
   return (
     <div>
-      <div className="bg-blue-900">
-        <div className="place-self-center w-6xl">
+      <div className="bg-blue-900 pl-[20%] pr-[20%] pt-16 max-2xl:pl-[10%] max-2xl:pr-[10%] max-lg:pr-[3%] max-lg:pl-[3%]">
+        <div className="l">
           <div className="grid grid-cols-2">
-            <div className="mt-14">
+            <div>
               <div className="a">
                 <div className="text-7xl">
                   <p className="text-white">Committed to </p>
@@ -116,14 +116,14 @@ export default function Home() {
                 </svg>
               </button></Link>
             </div>
-            <div>
+            <div className="pt-24">
               <FBLABuilding />
             </div>
           </div>
         </div>
       </div>
-      <div className="pt-24">
-        <div className="w-6xl place-self-center grid-cols-2 grid bg-blue-50 rounded-3xl pb-10">
+      <div className="pt-24 pl-[20%] pr-[20%] max-2xl:pl-[10%] max-2xl:pr-[10%] max-lg:pr-[3%] max-lg:pl-[3%]">
+        <div className="grid-cols-2 grid bg-blue-50 rounded-3xl pb-10">
           <div>
             <Carousel className="ml-20 w-96 mt-10 ">
               <CarouselContent className="place-self-center">
@@ -175,8 +175,8 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="pt-20">
-        <div className="place-self-center w-6xl">
+      <div className="pt-20 pl-[20%] pr-[20%] max-2xl:pl-[10%] max-2xl:pr-[10%] max-lg:pr-[3%] max-lg:pl-[3%]">
+        <div>
           <span className="a text-5xl mb-5 block">Upcoming</span>
           <div className="grid grid-cols-3 gap-10">
             {events.map((x, i) => (
@@ -219,20 +219,8 @@ export default function Home() {
           </div>
         </div>
       </div>
-      {/*<div className="mt-24 mb-10 bg-blue-50 pt-14 pb-14">
-        <div className="min-w-6xl place-self-center mt-14 mb-14 text-center">
-          <div className="grid grid-cols-[65%_35%] text-left mt-10 gap-14">
-            <div>
-              <img src={retrieved[0].img} className="rounded-2xl" width="100%"></img>
-            </div>
-            <div>
-              <span className="text-4xl font-bold">{retrieved[0].title}</span>
-            </div>
-          </div>
-        </div>
-      </div>*/}
-      <div className="pt-20 pb-24">
-        <div className="min-w-6xl place-self-center">
+      <div className="pt-20 pb-24 pl-[20%] pr-[20%] max-2xl:pl-[10%] max-2xl:pr-[10%] max-lg:pr-[3%] max-lg:pl-[3%]">
+        <div >
           <span className="a text-5xl mb-5 block">Leadership</span>
           <div className="grid grid-cols-5 gap-8">
             {content.map((x, i) => (

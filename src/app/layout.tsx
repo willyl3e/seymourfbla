@@ -16,8 +16,8 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <nav className="pt-9 pb-9 text-white bg-blue-900">
-          <div className="min-w-6xl place-self-center grid grid-cols-2 sticky top-0">
+        <nav className="pt-9 pb-9 text-white bg-blue-900 pl-[20%] pr-[20%] max-2xl:pl-[10%] max-2xl:pr-[10%] max-lg:pr-[3%] max-lg:pl-[3%]">
+          <div className="grid grid-cols-2 sticky top-0">
             <div>
               <Link href="/">
                 <svg
@@ -109,8 +109,8 @@ export default function RootLayout({
           </div>
         </nav>
         {children}
-        <footer>
-          <div className="w-6xl place-self-center border-t-[1px] border-t-gray-300 pt-8 pb-16 mt-10 grid grid-cols-4 text-gray-400 gap-5">
+        <footer className="pl-[20%] pr-[20%] max-2xl:pl-[10%] max-2xl:pr-[10%] max-lg:pr-[3%] max-lg:pl-[3%]">
+          <div className=" border-t-[1px] border-t-gray-300 pt-8 pb-16 mt-10 grid grid-cols-4 text-gray-400 gap-5">
             <div>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -207,9 +207,6 @@ export default function RootLayout({
               </span>
               <Link href="/recognition" className="mt-1 block text-sm">
                 Previous Years
-              </Link>
-              <Link href="/media" className="mt-1 block text-sm">
-                Media
               </Link>
               <Link href="/join" className="mt-1 block text-sm">
                 Become a member
