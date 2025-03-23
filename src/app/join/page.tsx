@@ -98,7 +98,7 @@ export default function Page() {
             Interested in joining?
           </span>
           <span className="text-lg mb-8 block leading-[1.3]">
-            We're always looking for new members. Thanks for your interest in
+            We&apos;re always looking for new members. Thanks for your interest in
             joining Seymour FBLA. Join our Google Classroom through your school
             email using code XXXXXX and by attending our next meeting. Email{" "}
             <a
