@@ -26,9 +26,9 @@ export default function Page() {
             <div>
               <img
                 src="/fblausa.svg"
-                className="place-self-center mb-5 h-48 drop-shadow-2xl"
+                className="mb-5 h-48 drop-shadow-2xl block m-auto"
               ></img>
-              <span className="font-medium text-2xl text-white block mt-12 mb-3 leading-[1.1]">
+              <span className="font-semibold text-2xl text-white block mt-12 mb-3 leading-[1.1]">
                 Be part of a nationally recognized club
               </span>
               <span className="text-blue-500 leading-[1.2] block text-sm">
@@ -36,12 +36,12 @@ export default function Page() {
                 organizations in the nation.
               </span>
             </div>
-            <div>
+            <div className="text-center">
               <img
                 src="/fblamedal.svg"
-                className="place-self-center mb-5 h-48 drop-shadow-2xl"
+                className="mb-5 h-48 drop-shadow-2xl block m-auto"
               ></img>
-              <span className="font-medium text-2xl text-white block mt-12 mb-3 leading-[1.1]">
+              <span className="font-semibold text-2xl text-white block mt-12 mb-3 leading-[1.1]">
                 {" "}
                 Compete for awards
               </span>
@@ -53,9 +53,9 @@ export default function Page() {
             <div>
               <img
                 src="/fblavolunteer.svg"
-                className="place-self-center mb-5 h-48 drop-shadow-2xl"
+                className="mb-5 h-48 drop-shadow-2xl block m-auto"
               ></img>
-              <span className="font-medium text-2xl text-white block mt-12 mb-3 leading-[1.1]">
+              <span className="font-semibold text-2xl text-white block mt-12 mb-3 leading-[1.1]">
                 Volunteer and make an impact
               </span>
               <span className="text-blue-500 leading-[1.2] block text-sm">
