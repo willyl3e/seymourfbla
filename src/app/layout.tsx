@@ -88,7 +88,7 @@ export default function RootLayout({
                     d="M258.9,202.87c-.08,0-.15,0-.23,0l.11-.22.11.22Z"
                   />
                 </svg>
-                <span className="variex text-[1.3rem] inline-block relative top-[2px] ml-1">
+                <span className="variex text-[1.3rem] inline-block relative top-[2px] ml-1 max-sm:text-[1rem]">
                   Seymour FBLA
                 </span>
                 <span className="text-sm ml-2 text-blue-500"></span>

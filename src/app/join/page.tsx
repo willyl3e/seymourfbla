@@ -22,7 +22,7 @@ export default function Page() {
           <span className=" text-lg text-blue-500 block mb-14">
             WHY JOIN FBLA?
           </span>
-          <div className="grid grid-cols-3 gap-20">
+          <div className="grid grid-cols-3 gap-20 max-md:grid-cols-1">
             <div>
               <img
                 src="/fblausa.svg"

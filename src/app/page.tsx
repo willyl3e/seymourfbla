@@ -81,7 +81,7 @@ export default function Home() {
     <div>
       <div className="bg-blue-900 pl-[20%] pr-[20%] pt-16 max-2xl:pl-[10%] max-2xl:pr-[10%] max-lg:pr-[3%] max-lg:pl-[3%]">
         <div className="l">
-          <div className="grid grid-cols-2">
+          <div className="grid grid-cols-2 max-lg:grid-cols-1">
             <div>
               <div className="a">
                 <div className="text-7xl">
@@ -123,9 +123,9 @@ export default function Home() {
         </div>
       </div>
       <div className="pt-24 pl-[20%] pr-[20%] max-2xl:pl-[10%] max-2xl:pr-[10%] max-lg:pr-[3%] max-lg:pl-[3%]">
-        <div className="grid-cols-2 grid bg-blue-50 rounded-3xl pb-10">
+        <div className="grid-cols-2 grid bg-blue-50 rounded-3xl pb-10 max-lg:grid-cols-1 max-lg:text-center max-lg:p-10">
           <div>
-            <Carousel className="ml-20 w-96 mt-10 ">
+            <Carousel className="ml-20 w-96 mt-10 max-lg:place-self-center max-lg:ml-0">
               <CarouselContent className="place-self-center">
                 <CarouselItem>
                   <img
@@ -153,7 +153,7 @@ export default function Home() {
               <CarouselNext className="  mr-3 border-3 font-bold" />
             </Carousel>
           </div>
-          <div className="pt-14 pr-20">
+          <div className="pt-14 pr-20 max-lg:pr-0">
             <span className="a text-5xl mt-5 inline-block text-blue-800">
               What is FBLA?
             </span>
@@ -178,7 +178,7 @@ export default function Home() {
       <div className="pt-20 pl-[20%] pr-[20%] max-2xl:pl-[10%] max-2xl:pr-[10%] max-lg:pr-[3%] max-lg:pl-[3%]">
         <div>
           <span className="a text-5xl mb-5 block">Upcoming</span>
-          <div className="grid grid-cols-3 gap-10">
+          <div className="grid grid-cols-3 gap-10 max-md:grid-cols-2">
             {events.map((x, i) => (
               <Drawer key={i}>
                 <DrawerTrigger className="text-left hover:cursor-pointer hover:scale-110 transition ease-in-out delay-100">
@@ -222,7 +222,7 @@ export default function Home() {
       <div className="pt-20 pb-24 pl-[20%] pr-[20%] max-2xl:pl-[10%] max-2xl:pr-[10%] max-lg:pr-[3%] max-lg:pl-[3%]">
         <div >
           <span className="a text-5xl mb-5 block">Leadership</span>
-          <div className="grid grid-cols-5 gap-8">
+          <div className="grid grid-cols-5 gap-8 max-md:grid-cols-3 max-sm:grid-cols-2">
             {content.map((x, i) => (
               <div
                 key={i}

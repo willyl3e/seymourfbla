@@ -26,7 +26,7 @@ export default async function Page({
     <>
       <div className="bg-blue-50 pl-[20%] pr-[20%] max-2xl:pl-[10%] max-2xl:pr-[10%] max-lg:pr-[3%] max-lg:pl-[3%]">
         <div className=" pt-20">
-          <div className="grid grid-cols-2">
+          <div className="grid grid-cols-2 max-sm:grid-cols-1">
             <div>
               <span className="text-7xl a mt-12 inline-block text-blue-800">
                 {selectedProfile[0].name}
