@@ -56,23 +56,12 @@ export default function Home() {
 
   const events = [
     {
-      name: "Regular Meeting",
-      date: "April 18th, 2025 from 2-2:30pm",
+      name: "Meeting & Ice Cream Social",
+      date: "September 5th, 2025 from 2-3pm",
       description:
-        "Regularly scheduled meeting.  We will be going over some certain things about FBLA.  Loren impsum por",
+        "First meeting of the year.  All members should attend. Free ice cream will be offered to all attendees courtesy of the Vice President.",
     },
-    {
-      name: "Special Meeting",
-      date: "April 27th, 2025 from 2-2:30pm",
-      description:
-        "Specially scheduled meeting.  We will be going over some certain things about FBLA.  Loren impsum por",
-    },
-    {
-      name: "Regular Meeting",
-      date: "April 28th, 2025 from 2-2:30pm",
-      description:
-        "Regularly scheduled meeting.  We will be going over some certain things about FBLA.  Loren impsum por",
-    },
+    
   ];
 
   const { content } = LeadersData();

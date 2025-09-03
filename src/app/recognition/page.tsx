@@ -72,7 +72,7 @@ export default function Page() {
                 <div className={dcs}>
                   <span className="text-4xl text-white font-bold">2024-25</span>
                   <span className="text-xl text-blue-500 block mt-3">
-                    SLC at Southern Connecticut
+                    Conference at Southern Connecticut State University
                   </span>
                 </div>
               </DrawerTrigger>
@@ -80,7 +80,7 @@ export default function Page() {
                 <DrawerHeader>
                   <DrawerTitle className="a text-5xl">2024-25</DrawerTitle>
                   <DrawerDescription>
-                    <span className="mt-5 mb-5 text-xl block text-black">Insert story/record about this year.</span>
+                    <span className="mt-5 mb-5 text-xl block text-black">Seymour FBLA attended the state conference in the 24-25 year.</span>
                   </DrawerDescription>
                 </DrawerHeader>
                 <DrawerFooter>
@@ -102,7 +102,7 @@ export default function Page() {
                 <div className={dcs}>
                   <span className="text-4xl text-white font-bold">2023-24</span>
                   <span className="text-xl text-blue-500 block mt-3">
-                    SLC at Naugatuck Valley Community College
+                    Conference at Naugatuck Valley Community College
                   </span>
                 </div>
               </DrawerTrigger>
@@ -110,7 +110,7 @@ export default function Page() {
                 <DrawerHeader>
                   <DrawerTitle className="a text-5xl">2023-24</DrawerTitle>
                   <DrawerDescription>
-                  <span className="mt-5 mb-5 text-xl block text-black">Insert story/record about this year.</span>
+                  <span className="mt-5 mb-5 text-xl block text-black">Seymour FBLA attended the state conference in the 23-24 year.</span>
                   </DrawerDescription>
                 </DrawerHeader>
                 <DrawerFooter>

@@ -98,9 +98,9 @@ export default function Page() {
             Interested in joining?
           </span>
           <span className="text-lg mb-8 block leading-[1.3]">
-            We&apos;re always looking for new members. Thanks for your interest in
-            joining Seymour FBLA. Join our Google Classroom through your school
-            email using code XXXXXX and by attending our next meeting. Email{" "}
+            Thanks for your interest in joining Seymour FBLA; we&apos;re always
+            looking for new members. Join the club by attending our next meeting.
+            Email{" "}
             <a
               href="mailto:ejepson@seymourschools.org"
               className="border-b-[1px] border-b-blue-600 text-blue-600"
@@ -118,16 +118,20 @@ export default function Page() {
                 When does FBLA meet?
               </AccordionTrigger>
               <AccordionContent>
-                FBLA meets every other Thursday.
+                FBLA meets every other Friday.
               </AccordionContent>
             </AccordionItem>
             <AccordionItem value="item-2">
               <AccordionTrigger className="text-lg font-normal">
                 What am I required to do as an FBLA member?
               </AccordionTrigger>
-              <AccordionContent>
-                blah blah blah
-              </AccordionContent>
+              <AccordionContent>Members should actively participate in club events and are expected to attend the state conference in March.</AccordionContent>
+            </AccordionItem>
+             <AccordionItem value="item-3">
+              <AccordionTrigger className="text-lg font-normal">
+                Are there dues?
+              </AccordionTrigger>
+              <AccordionContent>Yes.  The exact dues for the 25-26 year will be determined at a later date, though they hover around ~$20.</AccordionContent>
             </AccordionItem>
           </Accordion>
         </div>

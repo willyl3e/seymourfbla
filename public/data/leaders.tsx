@@ -4,45 +4,64 @@ export default function LeadersData() {
   return {
     content: [
       {
-        img: "/folsom.png",
-        name: "Sarah Folsom",
+        img: "none",
+        name: "Ariana Alvarez",
         role: "President",
         bio: (
           <>
             <span className={bioStyles}>
-              Sarah Folson is a senior at Seymour High School in Seymour, CT.
-              She has been the President of Seymour FBLA since 2023.
+              Ariana Alvarez is a senior at Seymour High School and the current
+              President of the Seymour High School FBLA chapter. In her
+              freetime, Alvarez enjoys playing soccer.
             </span>
           </>
         ),
-        path: "folsom",
-      },
-      {
-        img: "/khan.png",
-        name: "Jastina Khand",
-        role: "Vice President",
-        path: "khand",
-      },
-      {
-        img: "/kostick.png",
-        name: "John Kostick",
-        role: "Vice President",
-        bio: "",
-        path: "kostick",
-      },
-      {
-        img: "none",
-        name: "Ariana Alvarez",
-        role: "Treasurer",
-        bio: "",
         path: "alvarez",
       },
       {
-        img: "/ter.png",
-        name: "Izabel Ter",
+        img: "https://upload.wikimedia.org/wikipedia/commons/b/b5/Pipo_de_Clown.png",
+        name: "Ryan Dong",
+        role: "Vice President",
+        bio: (
+          <>
+            <span className={bioStyles}>
+              Ryan Dong is a senior at Seymour High School and the current Vice
+              President of the Seymour High School FBLA chapter. A studious
+              scholar, Dong is currently ranked in the top 10 of the senior
+              class.
+            </span>
+          </>
+        ),
+        path: "dong",
+      },
+      {
+        img: "none",
+        name: "Zackery Nook",
+        role: "Treasurer",
+        bio: (
+          <>
+            <span className={bioStyles}>
+              Zackery Nook is a senior at Seymour High School and the current
+              Treasurer of the Seymour High School FBLA chapter. In his
+              freetime, Nook enjoys talking to freshmen.
+            </span>
+          </>
+        ),
+        path: "nook",
+      },
+      {
+        img: "none",
+        name: "William Lee",
         role: "Secretary",
-        bio: "",
-        path: "ter",
+        bio: (
+          <>
+            <span className={bioStyles}>
+              William Lee is a senior at Seymour High School and the current
+              Secretary of the Seymour High School FBLA chapter.
+            </span>
+          </>
+        ),
+        path: "lee",
       },
     ],
   };
