@@ -19,7 +19,7 @@ export default function LeadersData() {
         path: "alvarez",
       },
       {
-        img: "https://upload.wikimedia.org/wikipedia/commons/b/b5/Pipo_de_Clown.png",
+        img: "none",
         name: "Ryan Dong",
         role: "Vice President",
         bio: (
