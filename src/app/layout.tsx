@@ -18,9 +18,9 @@ export default function RootLayout({
         <div className="pl-[20%] pr-[20%] max-2xl:pl-[10%] max-2xl:pr-[10%] max-lg:pr-[3%] max-lg:pl-[3%] pt-5 pb-5">
           <span className="text-lg font-bold">
             Ready to start studying for your event?{"   "}
-            <a className="text-blue-600 border-b border-blue-300" href="https://docs.google.com/document/d/1CREsYApwKKE0BJN1sVMOpbRhrPlxWmdzhuItSzANp5Q/edit?usp=sharing">
-              Check out Seymour FBLA's official study resources!
-            </a>
+            <Link className="text-blue-600 border-b border-blue-300" href="/study">
+              Check out Seymour FBLA&apos;s official study resources!
+            </Link>
           </span>
         </div>
         <nav className="pt-9 pb-9 text-white bg-blue-900 pl-[20%] pr-[20%] max-2xl:pl-[10%] max-2xl:pr-[10%] max-lg:pr-[3%] max-lg:pl-[3%]">

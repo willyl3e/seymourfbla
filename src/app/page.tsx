@@ -56,12 +56,17 @@ export default function Home() {
 
   const events = [
     {
-      name: "Meeting & Ice Cream Social",
-      date: "September 5th, 2025 from 2-3pm",
+      name: "Spirit Shop Meeting",
+      date: "December 16th, 2025 2-3pm",
       description:
-        "First meeting of the year.  All members should attend. Free ice cream will be offered to all attendees courtesy of the Vice President.",
+        "",
     },
-    
+    {
+      name: "General Meeting",
+      date: "December 19th, 2025 2-3pm",
+      description:
+        "",
+    },
   ];
 
   const { content } = LeadersData();
