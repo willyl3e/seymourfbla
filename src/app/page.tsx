@@ -56,14 +56,14 @@ export default function Home() {
 
   const events = [
     {
-      name: "Spirit Shop Meeting",
-      date: "December 16th, 2025 2-3pm",
+      name: "General Meeting",
+      date: "February 20th, 2026 2-3pm",
       description:
         "",
     },
     {
-      name: "General Meeting",
-      date: "December 19th, 2025 2-3pm",
+      name: "Spirit Shop Meeting",
+      date: "February 24th, 2026 2-3pm",
       description:
         "",
     },
@@ -123,7 +123,7 @@ export default function Home() {
               <CarouselContent className="place-self-center">
                 <CarouselItem>
                   <img
-                    src="/fbla.png"
+                    src="/fblaupdated.jpg"
                     width="90%"
                     className="rounded-2xl place-self-center"
                   ></img>
